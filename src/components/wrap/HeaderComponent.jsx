@@ -33,7 +33,7 @@ export default function HeaderComponent(){
                   <ul>
                      <li> 
                         <h1>
-                           <Link to="./" title="마켓컬리">
+                           <Link to="/메인" title="마켓컬리">
                               <img src="./img/logo_kurly.svg" alt=""/>
                               <span>마켓컬리</span>   
                            </Link>
@@ -95,7 +95,7 @@ export default function HeaderComponent(){
                      <li><Link to="./신상품" className="main-btn on" title="신상품">신상품</Link></li>
                      <li><Link to="./베스트" className="main-btn" title="베스트">베스트</Link></li>
                      <li><Link to="./알뜰쇼핑" className="main-btn" title="알뜰쇼핑">알뜰쇼핑</Link></li>
-                     <li><Link to="./특가/혜택택" className="main-btn" title="특가/혜택">특가/혜택</Link></li>
+                     <li><Link to="./특가/혜택" className="main-btn" title="특가/혜택">특가/혜택</Link></li>
                   </ul>
                </div>
                <div className="right">

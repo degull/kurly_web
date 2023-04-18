@@ -83,10 +83,11 @@ export default function WrapComponent(){
       
          <TopModalComponent/>
 
-         <BrowserRouter>
+         <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                <Route path='/' element={<HeaderComponent/>}>
                   <Route index element={<MainComponent/>}></Route>
+                  <Route path='메인' element={<MainComponent/>}></Route>
                   <Route path='신상품' element={<Main1Component/>}></Route>
                   <Route path='회원가입' element={<SignUpComponent setCountPlay={setCountPlay}  setId={state.setId}   seconds={state.seconds}    minutes={state.minutes}/>}></Route>
                </Route>
